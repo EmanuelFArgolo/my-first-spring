@@ -1,8 +1,8 @@
 package org.firstspring.course.config;
 
 
-import org.firstspring.course.repositories.UserRepository;
 import org.firstspring.course.entities.User;
+import org.firstspring.course.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
