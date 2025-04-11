@@ -50,8 +50,16 @@ public class OrderItem {
         return quantity;
     }
     public void setQuantity(Integer quantity) {
+
         this.quantity = quantity;
     }
+
+    public Double getSubTotal(){
+        return price*quantity;
+    }
+
+
+
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
